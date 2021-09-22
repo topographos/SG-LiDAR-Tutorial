@@ -20,9 +20,28 @@ div.blue { color: #FFFFFF ;background-color: #293e51; border-radius: 5px; paddin
 
 <div class = "blue">
 
-This tutorial ... [Scottish Remote Sensing Portal](https://remotesensingdata.gov.scot/).
+The aim of this tutorial is to guide on how to access LiDAR datasets from the Scottish Remote Sensing Portal, download the data and visualize in QGIS, a Geographic Information System software. This document is not intended to be fully comprehensive guide but brief overview and  a pointer to further resources.
 
 </div>
+
+# Introduction
+
+## LiDAR
+LiDAR stands for Light Detection and Ranging and  is an active remote sensing technique that uses a laser pulses to record earth surface. The LiDAR sensor emits pules of laser and measures properties of the reflected light - the timings, the angles and the wavelengths. The integration of GNSS (Global Navigation Satellite System) permits to accurately define the location (XYZ coordinates) of the point from which the signal was returned.  In addition to geographic position other attributes of the LiDAR points can be recorded, for example intensity, classification, RGB values, number of returns or scan angle. Although, not always all the attributes are provided to the end users.
+
+## LAS and LAZ files
+LiDAR points XYZ measurement, attributes and other metadata  are stored in LAS files, an open format considered to be an industry standard. LAZ files are compressed LAS files.
+
+## Digital Elevation Models
+DSM (Digital Surface Model) is a numeric representation of the earth surface produced from the first return of laser signal. DSM includes objects on its surface such as vegetation or buildings.
+DTM (Digital Terrain Model) is a numeric representation of the earth surface produced from the last return of laser signal. DTM shows the bear earth with vegetation and buildings removed.
+
+
+## Scottish Remote Sensing Portal
+In 2016 and 2017, Scottish Government and JNCC collaborated to develop an online data portal to host public sector LiDAR datasets. The collaboration continued between 2018 and 2020, supporting the ongoing running of the portal and delivering enhancements based on user feedback. The Scottish Remote Sensing Portal can be accessed at: [https://remotesensingdata.gov.scot/](https://remotesensingdata.gov.scot/).
+The Scottish Remote Sensing Portal currently provides access to three sets of Scottish public sector airborne LiDAR data,which can be downloaded as 10km tiles or accessed via Web Map Services (WMS). All data are shared under the Open Government Licence v3 unless otherwise stated.
+
+
 
 # Step 1 - Download Data
 
