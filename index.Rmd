@@ -1,5 +1,5 @@
 ---
-title: "Scottish Government LiDAR - Tutorial using QGIS"
+title: "SG LiDAR - Tutorial using QGIS"
 author: "by Michal Michalski - `r format(Sys.time(), '%d %B %Y')`"
 output: 
   html_document:
